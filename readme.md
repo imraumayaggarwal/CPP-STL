@@ -18,13 +18,6 @@ A dynamic array that can grow or shrink in size. Provides random access to eleme
 
 ---
 
-## 🟢 List
-`List.cpp`
-
-A doubly linked list implementation. Allows efficient insertion and deletion anywhere in the sequence but does not provide random access.
-
----
-
 ## 🟢 Deque
 `Deque.cpp`
 
@@ -38,5 +31,32 @@ A double-ended queue that allows fast insertion and deletion at both the front a
 A container adapter that implements the Last In, First Out (LIFO) principle. Elements can only be added or removed from the top.
 
 ---
+
+## 🟢 Singly Linked List
+`SLL.cpp`
+
+A linear linked list where each node points to the next; supports simple insertion and deletion.
+
+---
+
+## 🟢 Circular Singly Linked List
+`CSLL.cpp`
+
+A singly linked list where the last node connects back to the head, forming a circle.
+
+---
+
+## 🟢 List (Doubly Linked List)
+`List_DLL.cpp`
+
+A doubly linked list implementation. Allows efficient insertion and deletion anywhere in the sequence but does not provide random access.
+
+
+---
+
+## 🟢 Circular Doubly Linked List
+`CDLL.cpp`
+
+A doubly linked list where the last node links back to the head, enabling circular traversal in both directions.
 
 ## ⭐ Star this repo if you found it helpful!
