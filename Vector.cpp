@@ -59,7 +59,7 @@ int main() {
             v.end()   -> points right after to the last element of the vector
 
             for example:
-                                {1 , 2, 3, 4, 5}
+                                {1 , 2, 3, 4, 5}   
                                  ^               ^
                                 v.begin()        v.end() 
             so if we want to access the last element, we will perform it--;
@@ -79,8 +79,8 @@ int main() {
 
         here r stands for reverse.
                                         {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-                                      ^                                 ^
-                                      v.rend()                          v.rbegin() 
+                                      ^                              ^
+                                      v.rend()                       v.rbegin() 
     */
 
     // 3. erase
