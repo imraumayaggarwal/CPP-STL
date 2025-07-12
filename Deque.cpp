@@ -24,6 +24,10 @@ int main() {
     dq.pop_front();                 // {20, 30, 40, 50}
     dq.pop_back();                  // {20, 30, 40}
     ob.printit(dq);
-    
+    dq.insert(dq.begin()+1, 10 ,100);
+    ob.printit(dq);
+    dq.erase(dq.begin() + 2,  dq.begin() + 11);
+    ob.printit(dq);
+
     // rest of the functions are same as that of vector
 }

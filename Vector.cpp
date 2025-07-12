@@ -10,7 +10,6 @@
     8. empty
  */
 
-
 #include<iostream>
 #include<vector>
 using namespace std;
