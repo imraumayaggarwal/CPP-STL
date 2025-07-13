@@ -32,6 +32,41 @@ A container adapter that implements the Last In, First Out (LIFO) principle. Ele
 
 ---
 
+## 🟢 Queue
+`Queue.cpp`
+
+A container adapter that implements the First In, First Out (FIFO) principle. Elements are added at the back and removed from the front.
+
+---
+
+## 🟢 Priority Queue
+`Priority_Queue.cpp`
+
+A container adapter that provides constant-time access to the largest (or smallest) element. Internally implemented using a heap.
+
+---
+
+## 🟢 Set
+`set.cpp`
+
+An associative container that stores unique elements in sorted order. Provides fast lookup, insertion, and deletion (logarithmic time).
+
+---
+
+## 🟢 Multiset
+`multiset.cpp`
+
+Similar to `set`, but allows duplicate elements. Elements are still stored in sorted order and support logarithmic time operations.
+
+---
+
+## 🟢 Unordered Set
+`unorderedset.cpp`
+
+An associative container that stores unique elements in an unordered fashion using hashing. Provides average constant-time complexity for insert and lookup.
+
+---
+
 ## 🟢 Singly Linked List
 `SLL.cpp`
 
@@ -51,12 +86,13 @@ A singly linked list where the last node connects back to the head, forming a ci
 
 A doubly linked list implementation. Allows efficient insertion and deletion anywhere in the sequence but does not provide random access.
 
-
 ---
 
 ## 🟢 Circular Doubly Linked List
 `CDLL.cpp`
 
 A doubly linked list where the last node links back to the head, enabling circular traversal in both directions.
+
+---
 
 ## ⭐ Star this repo if you found it helpful!
