@@ -2,6 +2,22 @@
 #include<list>
 using namespace std;
 
+
+/*
+
+1. push_front
+2. pop_front
+----------------------
+| 3. erase           |
+| 4. swap            |
+| 5. clear           | {All same as previously Discussed}
+| 6. empty           |
+| 7. size            |
+----------------------
+
+*/
+
+
 class printlist {
     public:
         void printit(list <int> &ls) {

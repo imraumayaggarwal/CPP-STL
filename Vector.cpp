@@ -8,6 +8,7 @@
     6. swap
     7. clear
     8. empty
+    9. size
  */
 
 #include<iostream>
